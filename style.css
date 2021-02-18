@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+*{
+margin:0;
+padding:0;
+}
+.wrapper{
+    background: url(Images/LNDN.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    height:80px;
+    width:100%;
+    background: rgba(0,0,0,0.6);
+}
+.logo{
+    width:75px;
+    height: auto;
+    padding-left:50px;
+    padding-top: 3px;
+}
+.navbar ul{
+    float: right;
+    margin-right:20px;
+}
+
+navbar ul li {
+    list-style: none;
+    display: inline-block;
+    line-height:80px;
+    margin: 0.8px;
+}
+
+.navbar ul li a{
+    text-decoration: None;
+    font-size:20px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background: red;
+border-radius:20px;
+}
+.center{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.center h1{
+color:white;
+text-align: center;
+width: 900px;
+font-weight: bold;
+}
+
+.center h2{
+color: white;
+text-align: center;
+font-size: absolute;
+font-weight: bold;
+}
+
+.container{
+margin-top:50px;
+margin-bottom:50px;
+}
+
+.btn-primary{
+ background-color: red;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
+
+.second-row{
+margin-top:50px;
+}
+#info-img{
+width:100%;
+}
